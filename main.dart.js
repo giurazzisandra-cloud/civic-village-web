@@ -7421,16 +7421,14 @@ To:function To(){},
 oX:function oX(a){this.a=a},
 Ti:function Ti(a){this.a=a},
 Td:function Td(){},
-Te:function Te(a,b,c,d,e,f,g,h,i){var _=this
+Te:function Te(a,b,c,d,e,f,g){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.e=e
 _.f=f
-_.r=g
-_.w=h
-_.x=i},
+_.r=g},
 T7:function T7(){},
 T9:function T9(){},
 T8:function T8(){},
@@ -37195,64 +37193,86 @@ A.To.prototype={
 $1(a){return new A.nl(null)},
 $S:196}
 A.oX.prototype={
-P(a){var s=null,r=A.HB(!0,A.aj3(new A.Ti(B.DW)),!0),q=A.bV(a,s,t.w).w.a,p=q.a,o=q.b
-return A.ao0(s,p/o>0.78&&p>=900&&o>=660?A.eJ(s,A.je(new A.oL(0.5625,r,s),s,s),B.r,s,B.jD,s,s,s,s):r)}}
+P(a){var s=null,r=A.HB(!0,A.aj3(new A.Ti(B.DW)),!0)
+A.bV(a,s,t.w).toString
+return A.ao0(s,A.eJ(s,A.je(new A.oL(0.5625,r,s),s,s),B.r,s,B.jD,s,s,s,s))}}
 A.Ti.prototype={
-$2(a,b){var s,r=null,q=b.b,p=b.d,o=Math.min(q,p),n=o*0.352,m=o*0.187,l=2*n,k=B.d.dK(o*0.006,1.2,3),j=A.c([0,45,90,135,180,225,270,315],t.n),i=B.d.dK(l+m,0,q),h=t.w,g=A.bV(a,r,h).w.a.a/A.bV(a,r,h).w.a.b>0.78&&q>=900&&p>=660,f=g?Math.max(o*0.36,240):o*0.08,e=g?Math.max(o*0.14,96):o*0.18
-h=o*0.26
-s=t.F
-return A.lo(B.bM,A.c([new A.d2(B.fI,r,r,new A.cc(B.AP,A.ho(A.c([new A.fk(new A.aj(0,h,0,h),A.mV("assets/logo/logo.png",new A.Td(),B.d_,r,r),r),A.ey(r,12,r),A.ey(A.aiG(A.d9("CIVIC VILLAGE",r,r,r,A.dE().$4$color$fontSize$fontWeight$letterSpacing(B.ko,18,B.dt,1),r),B.fS),r,h),B.wh,A.eJ(r,r,B.r,B.aF,r,2,r,r,i)],s),B.ap,B.cA),r),r),new A.iC(0,f,r,r,0+q,f+(p-f-e)-f,A.TK(A.aj3(new A.Te(k,n,l*1.04,o*0.3332,2,this.a,j,m,g)),B.W,r),r),new A.d2(B.fH,r,r,new A.cc(B.AG,A.ey(A.lo(B.bM,A.c([B.Hz,new A.d2(B.fH,r,r,A.ho(A.c([new A.fi(new A.Tf(),r),B.wg,A.d9("\xa9 CPIA 4 Milano \u201cMargherita Hack\u201d\nLicenza CC BY-NC-SA 4.0",r,r,r,A.dE().$2$color$fontSize(B.A,12),B.ai),B.JY],s),B.ap,B.cA),r)],s),B.r,B.Kf),r,1/0),r),r)],s),B.W,B.c9)},
+$2(a,a0){var s,r,q,p,o,n,m,l,k,j,i,h=null,g={},f=a0.b,e=a0.d,d=Math.min(f,e),c=g.a=d*0.352,b=d*0.3332
+g.b=b
+s=g.c=d*0.187
+r=f<900
+if(r){q=g.a=c*0.82
+g.b=b*0.9
+p=g.c=s*0.88}else{p=s
+q=c}q=2*q
+o=B.d.dK(d*0.006,1.2,3)
+n=A.c([0,45,90,135,180,225,270,315],t.n)
+m=B.d.dK(q+p,0,f)
+p=t.w
+l=A.bV(a,h,p).w.a.a/A.bV(a,h,p).w.a.b>0.78&&f>=900&&e>=660
+k=l?Math.max(d*0.36,240):d*0.08
+j=l?Math.max(d*0.14,96):d*0.18
+if(r){k=80
+j=120}p=d*0.26
+i=t.F
+return A.lo(B.bM,A.c([new A.d2(B.fI,h,h,new A.cc(B.AP,A.ho(A.c([new A.fk(new A.aj(0,p,0,p),A.mV("assets/logo/logo.png",new A.Td(),B.d_,h,h),h),A.ey(h,12,h),A.ey(A.aiG(A.d9("CIVIC VILLAGE",h,h,h,A.dE().$4$color$fontSize$fontWeight$letterSpacing(B.ko,18,B.dt,1),h),B.fS),h,p),B.wh,A.eJ(h,h,B.r,B.aF,h,2,h,h,m)],i),B.ap,B.cA),h),h),new A.iC(0,k,h,h,0+f,k+(e-k-j)-k,A.TK(A.aj3(new A.Te(g,o,q*1.04,2,this.a,n,l)),B.W,h),h),new A.d2(B.fH,h,h,new A.cc(B.AG,A.ey(A.lo(B.bM,A.c([B.Hz,new A.d2(B.fH,h,h,A.ho(A.c([new A.fi(new A.Tf(),h),B.wg,A.d9("\xa9 CPIA 4 Milano \u201cMargherita Hack\u201d\nLicenza CC BY-NC-SA 4.0",h,h,h,A.dE().$2$color$fontSize(B.A,12),B.ai),B.JY],i),B.ap,B.cA),h)],i),B.r,B.Kf),h,1/0),h),h)],i),B.W,B.c9)},
 $S:101}
 A.Td.prototype={
 $3(a,b,c){return B.bH},
 $S:44}
 A.Te.prototype={
-$2(b5,b6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7=this,a8=null,a9=b6.d,b0=b6.b/2,b1=a9/2,b2=a7.b,b3=A.Uj(a8,a8,a8,new A.Ok(A.aH(B.d.av(76.5),B.hf.E()>>>16&255,B.hf.E()>>>8&255,B.hf.E()&255),a7.a,b2,a8)),b4=a7.c
-b4=A.ey(A.anw(A.vo(A.mV("assets/images/petals.png",new A.T7(),B.d_,a8,a8),!0,a8),0.24),b4,b4)
-s=a7.d
-r=a7.e
+$2(b6,b7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8=this,a9=null,b0=b7.d,b1=b7.b/2,b2=b0/2,b3=a8.a,b4=A.Uj(a9,a9,a9,new A.Ok(A.aH(B.d.av(76.5),B.hf.E()>>>16&255,B.hf.E()>>>8&255,B.hf.E()&255),a8.b,b3.a,a9)),b5=a8.c
+b5=A.ey(A.anw(A.vo(A.mV("assets/images/petals.png",new A.T7(),B.d_,a9,a9),!0,a9),0.24),b5,b5)
+s=b3.b
+r=a8.d
 q=A.tL(B.cr,r)
-p=A.je(new A.ol(A.eJ(a8,A.vA(!1,!0,A.mV("assets/images/center.png",new A.T8(),B.fR,a8,a8),B.aX,!0,a8,a8,a8,a8,a8,a8,a8,a8,new A.T9(),a8,a8,a8,a8,a8,a8),B.bd,a8,new A.df(a8,a8,q,a8,B.D8,a8,B.bA),s,a8,a8,s),1,a8,a8,a8,a8),a8,a8)
+p=A.je(new A.ol(A.eJ(a9,A.vA(!1,!0,A.mV("assets/images/center.png",new A.T8(),B.fR,a9,a9),B.aX,!0,a9,a9,a9,a9,a9,a9,a9,a9,new A.T9(),a9,a9,a9,a9,a9,a9),B.bd,a9,new A.df(a9,a9,q,a9,B.D8,a9,B.bA),s,a9,a9,s),1,a9,a9,a9,a9),a9,a9)
 s=t.F
 o=A.c([],s)
-for(q=a7.r,n=a7.w,m=n/2,l=n+36,k=a7.f,j=0;j<8;++j){i=(90-q[j])*3.141592653589793/180
-h=Math.cos(i)
-g=Math.sin(i)
-f=A.c([new A.A1(k[j],r,a8)],s)
-f.push(new A.dn(n,36,A.d9(k[j].a,2,B.wt,!0,A.dE().$2$color$fontSize(B.C,11),B.ai),a8))
-o.push(new A.iC(b0+b2*h-m,b1-b2*g-m,a8,a8,n,l,A.ho(f,B.ap,B.cA),a8))}b2=new A.Th(b0,b2)
-q=b2.$1(45)
-m=b2.$1(135)
-l=b2.$1(225)
-k=b2.$1(315)
-e=n*1.15
-h=a7.x
-g=h?0.1:0.38
-f=e/2
-d=a9-f-36-6-n*g
-c=n*0.6
-b=b2.$1(90)
-a=h?Math.max(4,n*0.02):Math.max(8,n*0.06)
-a0=h?d+f+36+40:-1/0
-b2=h?n*0.72:n*0.48
-a1=Math.min(Math.max(a0,d+f+b2),a9-c-a)
-a2=h?6:3
-a3=h?2:1
-b2=d-f
-n=e+36
-h=A.c([new A.r4("assets/icons/spazio.png",new A.Ta(b5),r,12,4,a8)],s)
-h.push(A.ajP(A.ey(A.d9("Spazio condiviso",2,a8,a8,A.dE().$2$color$fontSize(B.C,11),B.ai),36,e),B.qA))
-a4=A.q_(a8,A.ho(h,B.ap,B.bj),n,a8,(l+k)/2-f,a8,b2,e)
-k=A.c([new A.r4("assets/icons/passaporto.png",new A.Tb(b5),r,12,4,a8)],s)
-k.push(A.ajP(A.ey(A.d9("Passaporto\ndigitale",2,a8,a8,A.dE().$2$color$fontSize(B.C,11),B.ai),36,e),B.qA))
-a5=A.q_(a8,A.ho(k,B.ap,B.bj),n,a8,(q+m)/2-f,a8,b2,e)
-a6=A.q_(a8,new A.r4("assets/icons/civix.png",new A.Tc(b5),r,a2,a3,a8),c,a8,b-c/2,a8,a1,c)
-s=A.c([new A.d2(B.S,a8,a8,b4,a8),new A.dn(1/0,1/0,b3,a8)],s)
+for(q=a8.f,n=a8.e,m=0;m<8;++m){l=(90-q[m])*3.141592653589793/180
+k=b3.a
+j=Math.cos(l)
+i=b3.a
+h=Math.sin(l)
+g=b3.c
+f=g/2
+e=A.c([new A.A1(n[m],r,a9)],s)
+e.push(new A.dn(b3.c,36,A.d9(n[m].a,2,B.wt,!0,A.dE().$2$color$fontSize(B.C,11),B.ai),a9))
+o.push(new A.iC(b1+k*j-f,b2-i*h-f,a9,a9,g,g+36,A.ho(e,B.ap,B.cA),a9))}q=new A.Th(b3,b1)
+n=q.$1(45)
+k=q.$1(135)
+j=q.$1(225)
+i=q.$1(315)
+h=b3.c
+d=h*1.15
+g=a8.r
+f=g?0.1:0.38
+e=d/2
+c=b0-e-36-6-h*f
+b=h*0.6
+a=q.$1(90)
+b3=b3.c
+a0=g?Math.max(4,b3*0.02):Math.max(8,b3*0.06)
+a1=g?c+e+36+40:-1/0
+b3=g?b3*0.72:b3*0.48
+a2=Math.min(Math.max(a1,c+e+b3),b0-b-a0)
+a3=g?6:3
+a4=g?2:1
+b3=c-e
+q=d+36
+h=A.c([new A.r4("assets/icons/spazio.png",new A.Ta(b6),r,12,4,a9)],s)
+h.push(A.ajP(A.ey(A.d9("Spazio condiviso",2,a9,a9,A.dE().$2$color$fontSize(B.C,11),B.ai),36,d),B.qA))
+a5=A.q_(a9,A.ho(h,B.ap,B.bj),q,a9,(j+i)/2-e,a9,b3,d)
+i=A.c([new A.r4("assets/icons/passaporto.png",new A.Tb(b6),r,12,4,a9)],s)
+i.push(A.ajP(A.ey(A.d9("Passaporto\ndigitale",2,a9,a9,A.dE().$2$color$fontSize(B.C,11),B.ai),36,d),B.qA))
+a6=A.q_(a9,A.ho(i,B.ap,B.bj),q,a9,(n+k)/2-e,a9,b3,d)
+a7=A.q_(a9,new A.r4("assets/icons/civix.png",new A.Tc(b6),r,a3,a4,a9),b,a9,a-b/2,a9,a2,b)
+s=A.c([new A.d2(B.S,a9,a9,b5,a9),new A.dn(1/0,1/0,b4,a9)],s)
 B.b.K(s,o)
 s.push(p)
-s.push(a4)
 s.push(a5)
 s.push(a6)
+s.push(a7)
 return A.lo(B.bM,s,B.W,B.c9)},
 $S:101}
 A.T7.prototype={
@@ -37270,7 +37290,7 @@ A.T8.prototype={
 $3(a,b,c){return B.bH},
 $S:44}
 A.Th.prototype={
-$1(a){return this.a+this.b*Math.cos((90-a)*3.141592653589793/180)},
+$1(a){return this.b+this.a.a*Math.cos((90-a)*3.141592653589793/180)},
 $S:1}
 A.Ta.prototype={
 $0(){return A.h2(this.a,!1).nF("/spazio",t.X)},
