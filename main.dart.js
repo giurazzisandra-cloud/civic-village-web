@@ -7424,14 +7424,15 @@ Tz:function Tz(){},
 oZ:function oZ(a){this.a=a},
 Tt:function Tt(a){this.a=a},
 To:function To(){},
-Tp:function Tp(a,b,c,d,e,f,g){var _=this
+Tp:function Tp(a,b,c,d,e,f,g,h){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
 _.e=e
 _.f=f
-_.r=g},
+_.r=g
+_.w=h},
 Ti:function Ti(){},
 Tk:function Tk(){},
 Tj:function Tj(){},
@@ -37273,7 +37274,7 @@ i=j?Math.max(s*0.36,240):s*0.08
 h=j?Math.max(s*0.14,96):s*0.18
 e=s*0.26
 n=t.F
-return A.lo(B.bM,A.c([new A.d2(B.fI,g,g,new A.cd(B.AP,A.ho(A.c([new A.fk(new A.ag(0,e,0,e),A.mV("assets/logo/logo.png",new A.To(),B.cn,g,g),g),A.ej(g,12,g),A.ej(A.Wa(A.d9("CIVIC VILLAGE",g,g,g,A.dE().$4$color$fontSize$fontWeight$letterSpacing(B.ko,18,B.dt,1),g),B.fS),g,e),B.wh,A.eJ(g,g,B.r,B.aG,g,2,g,g,k)],n),B.aq,B.cB),g),g),new A.iE(0,i,g,g,0+d,i+(c-i-h)-i,A.TV(A.ajf(new A.Tp(f,m,o*1.04,2,this.a,l,j)),B.S,g),g),new A.d2(B.fH,g,g,new A.cd(B.AG,A.ej(A.lo(B.bM,A.c([B.Hz,new A.d2(B.fH,g,g,A.ho(A.c([new A.fi(new A.Tq(),g),B.wg,A.d9("\xa9 CPIA 4 Milano \u201cMargherita Hack\u201d\nLicenza CC BY-NC-SA 4.0",g,g,g,A.dE().$2$color$fontSize(B.A,12),B.aj),B.JY],n),B.aq,B.cB),g)],n),B.r,B.Kf),g,1/0),g),g)],n),B.S,B.c9)},
+return A.lo(B.bM,A.c([new A.d2(B.fI,g,g,new A.cd(B.AP,A.ho(A.c([new A.fk(new A.ag(0,e,0,e),A.mV("assets/logo/logo.png",new A.To(),B.cn,g,g),g),A.ej(g,12,g),A.ej(A.Wa(A.d9("CIVIC VILLAGE",g,g,g,A.dE().$4$color$fontSize$fontWeight$letterSpacing(B.ko,18,B.dt,1),g),B.fS),g,e),B.wh,A.eJ(g,g,B.r,B.aG,g,2,g,g,k)],n),B.aq,B.cB),g),g),new A.iE(0,i,g,g,0+d,i+(c-i-h)-i,A.TV(A.ajf(new A.Tp(f,m,o*1.04,2,this.a,l,j,d<600)),B.S,g),g),new A.d2(B.fH,g,g,new A.cd(B.AG,A.ej(A.lo(B.bM,A.c([B.Hz,new A.d2(B.fH,g,g,A.ho(A.c([new A.fi(new A.Tq(),g),B.wg,A.d9("\xa9 CPIA 4 Milano \u201cMargherita Hack\u201d\nLicenza CC BY-NC-SA 4.0",g,g,g,A.dE().$2$color$fontSize(B.A,12),B.aj),B.JY],n),B.aq,B.cB),g)],n),B.r,B.Kf),g,1/0),g),g)],n),B.S,B.c9)},
 $S:101}
 A.To.prototype={
 $3(a,b,c){return B.bH},
@@ -37307,6 +37308,8 @@ g=a8.r
 f=g?0.1:0.38
 e=d/2
 c=b0-e-36-6-h*f
+f=a8.w
+if(f&&!g)c+=h*0.05
 b=h*0.6
 a=q.$1(90)
 b3=b3.c
@@ -37315,6 +37318,7 @@ a1=g?c+e+36+40:-1/0
 q=g?b3*0.72:b3*0.48
 h=b0-b-a0
 a2=Math.min(Math.max(a1,c+e+q),h)
+if(f&&!g)a2=Math.min(h,a2+b3*0.07)
 if(g)a2=Math.min(h,a2+b3*0.35)
 a3=g?6:3
 a4=g?2:1
