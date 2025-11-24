@@ -23092,7 +23092,7 @@ case 4:return B.va}},
 lZ(a,b){return A.aEA(a,b)},
 aEA(a,b){var s=0,r=A.N(t.y),q,p
 var $async$lZ=A.O(function(c,d){if(c===1)return A.K(d,r)
-while(true)switch(s){case 0:if(b===B.Ch||b===B.lb)p=!(a.gd9()==="https"||a.gd9()==="http")
+while(true)switch(s){case 0:if(b===B.Ch||b===B.lc)p=!(a.gd9()==="https"||a.gd9()==="http")
 else p=!1
 if(p)throw A.e(A.ff(a,"url","To use an in-app web view, you must provide an http(s) URL."))
 q=$.akB().qa(a.j(0),new A.Fq(A.aDG(b),new A.Fc(!0,!0,B.ql),null))
@@ -37308,7 +37308,7 @@ if(p.c==null){s=1
 break}s=6
 return A.P(A.aqS(null,!0,new A.ad5(o,a),a,t.z),$async$jF)
 case 6:s=7
-return A.P(A.lZ(l,B.eF),$async$jF)
+return A.P(A.lZ(l,B.lb),$async$jF)
 case 7:if(!d&&p.c!=null){a.af(t.Pu).f.r4(B.K5)
 s=1
 break}p.a__()
@@ -37433,10 +37433,10 @@ return A.P(A.ak0(o),$async$mp)
 case 5:s=c?3:4
 break
 case 3:s=6
-return A.P(A.lZ(o,B.lc),$async$mp)
+return A.P(A.lZ(o,B.eF),$async$mp)
 case 6:if(c){s=1
 break}case 4:s=7
-return A.P(A.lZ(o,B.lb),$async$mp)
+return A.P(A.lZ(o,B.lc),$async$mp)
 case 7:if(c){s=1
 break}if(a.e!=null)a.af(t.Pu).f.r4(B.K6)
 case 1:return A.L(q,r)}})
@@ -37454,7 +37454,7 @@ A.a6F.prototype={
 $0(){var s=0,r=A.N(t.H),q=this
 var $async$$0=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:s=2
-return A.P(A.lZ(A.Bm(null,"civicvillage@cpialegnano.edu.it","subject="+A.rS(1,"Condivisione per lo Spazio Condiviso",B.N,!0),null,"mailto"),B.eF),$async$$0)
+return A.P(A.lZ(A.Bm(null,"civicvillage@cpialegnano.edu.it","subject="+A.rS(1,"Condivisione per lo Spazio Condiviso",B.N,!0),null,"mailto"),B.lb),$async$$0)
 case 2:if(!b&&q.a.e!=null)q.a.af(t.Pu).f.r4(B.K7)
 return A.L(null,r)}})
 return A.M($async$$0,r)},
@@ -37463,7 +37463,7 @@ A.a6G.prototype={
 $0(){var s=0,r=A.N(t.H)
 var $async$$0=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:s=2
-return A.P(A.lZ(A.dO("https://www.cpialegnano.edu.it/documento/privacy-policy/",0,null),B.lc),$async$$0)
+return A.P(A.lZ(A.dO("https://www.cpialegnano.edu.it/documento/privacy-policy/",0,null),B.eF),$async$$0)
 case 2:return A.L(null,r)}})
 return A.M($async$$0,r)},
 $S:11}
@@ -74774,10 +74774,10 @@ B.eD=new A.vD(1,"domText")
 B.eE=new A.vD(2,"sizedSpan")
 B.Cf=new A.YT(!1,255)
 B.Cg=new A.YU(255)
-B.eF=new A.pD(0,"platformDefault")
+B.lb=new A.pD(0,"platformDefault")
 B.Ch=new A.pD(1,"inAppWebView")
-B.lb=new A.pD(2,"inAppBrowserView")
-B.lc=new A.pD(3,"externalApplication")
+B.lc=new A.pD(2,"inAppBrowserView")
+B.eF=new A.pD(3,"externalApplication")
 B.ld=new A.vG(0,"opportunity")
 B.hY=new A.vG(2,"mandatory")
 B.le=new A.vG(3,"endOfText")
